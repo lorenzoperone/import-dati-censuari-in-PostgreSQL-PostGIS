@@ -1193,7 +1193,7 @@ INSERT INTO codice_toponimo (codice_toponimo, denominazione) VALUES
 (843, 'Monte'),
 (894, 'Strada poderale');
 ```
-
+##### La query non gira perchè non è stata ancora creata la tabella FAB!!!!
 ```sql
 CREATE OR REPLACE VIEW fab1 AS SELECT * from fab WHERE field_6 = '1';
 CREATE OR REPLACE VIEW fab2 AS SELECT * from fab WHERE field_6 = '2';
